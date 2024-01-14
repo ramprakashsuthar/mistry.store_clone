@@ -137,7 +137,7 @@ export default function page() {
             </div>
             <p className="fs-15 label-color-2 fw-600 m-0 line-clamp-2">Mistry.Store</p>
           </div>
-          {/* <section class="home-stories-feed d-flex align-items-center justify-content-center w-100 vh-100 position-fixed top-0 start-0 p-lg-3">
+          <section class="home-stories-feed d-flex align-items-center justify-content-center w-100 vh-100 position-fixed top-0 start-0 p-lg-3">
             <div class="d-none d-lg-block">
               <button class="border-0 outline-none bg-transparent position-absolute top-0 end-0 p-3 points-close">
                 <img src="https://mistry.store/images/close-black-circle.svg" alt="Close" class="img-fluid" width="30" />
@@ -155,7 +155,7 @@ export default function page() {
               width={432}
               height={768}
             />
-          </section> */}
+          </section>
 
 
           <div className="text-center mx-2 cursor-pointer">

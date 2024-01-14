@@ -43,17 +43,17 @@ export default function Header() {
                     <div className="w-100 ms-lg-4 navbar-collapse collapse" id="basic-navbar-nav">
                         <div className="w-100 navbar-nav">
                             <div className="nav-item">
-                                <a className="nav-link active" href="/">Home</a>
+                                <Link className="nav-link active" href={"/"}>Home</Link>
                             </div>
                             <div className="nav-item">
-                                <a className="nav-link" href="/about-us">About Us</a>
+                                <Link className="nav-link" href={"/aboutus"}>About Us</Link>
                             </div>
                             <div className="position-relative nav-item">
                                 <img src="https://mistry.store/images/new-flag.svg" alt="Icon" className="img-fluid end-0 position-absolute" style={{ top: '5px' }} />
-                                <a className="nav-link cursor-pointer" href="/pdf-catalog">PDF Catalog</a>
+                                <Link className="nav-link cursor-pointer" href={"/pdfcatalog"}>PDF Catalog</Link>
                             </div>
                             <div className="nav-item">
-                                <a className="nav-link" href="/contact-us">Contact Us</a>
+                                <Link className="nav-link" href={"/contactus"}>Contact Us</Link>
                             </div>
                             <div className="nav-item">
                                 <a className="nav-link" href="https://blog.mistry.store">Blogs</a>
